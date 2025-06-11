@@ -1,0 +1,140 @@
+/* Reset e fonte base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0fdf4;
+    color: #2e2e2e;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  header p,
+  header h3 {
+    font-size: 18px;
+  }
+  
+  /* Introdução */
+  .introducao {
+    padding: 30px;
+    text-align: center;
+    background-color: #e8f5e9;
+  }
+  
+  .introducao h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  /* Bloco de conteúdo */
+  .bloco {
+    padding: 40px 20px;
+  }
+  
+  .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+  
+  .conteudo.reverso {
+    flex-direction: row-reverse;
+  }
+  
+  .conteudo img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conteudo div {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .conteudo h3 {
+    font-size: 24px;
+    color: #1b5e20;
+    margin-bottom: 10px;
+  }
+  
+  .conteudo p {
+    font-size: 18px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .botao {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #2e7d32;
+  }
+  
+  .video-section {
+    background-color: #1b5e20;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .video-section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .video-container {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-container iframe {
+    width: 90%;
+    max-width: 700px;
+    border: 5px solid white;
+    border-radius: 12px;
+  }  
